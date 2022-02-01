@@ -26,6 +26,7 @@ export default {
 @import '../assets/style/global.scss';
 
  main{
-     background-color: $dm-bg-main;     
+     background-color: $dm-bg-main;
+     min-height: 872px;
  }
 </style>

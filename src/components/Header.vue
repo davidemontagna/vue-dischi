@@ -5,9 +5,7 @@
                 <div class="col">
                     <div class="bg-logo justify-content-start">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/7/71/Spotify.png" alt="">
-                        <div class="dm-src-bar">
-                            <Search />
-                        </div>
+                        
                         
                      </div>
                 </div>
@@ -18,13 +16,11 @@
 </template>
 
 <script>
-import Search from './commons/Search.vue';
+
 
 export default {
     name: 'Header',
-    components:{
-        Search
-    }
+    
 }
 </script>
 
@@ -41,8 +37,5 @@ export default {
         }
     }
 
-    .dm-src-bar{
-        display: inline-block;
-        margin-left: 100px;
-    }
+    
 </style>

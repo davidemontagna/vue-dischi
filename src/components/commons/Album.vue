@@ -39,8 +39,7 @@ export default {
         text-transform: uppercase;
     }
     h4{
-        color: $text-color;
-        
+        color: $text-color;        
     }
     
 }

@@ -11,8 +11,10 @@
             :album="album" />          
             
         </div>
-
-        <Loader v-else />
+        <div class="row justify-content-center" v-else>
+            <Loader  />
+        </div>
+        
     </div>
 </template>
 
